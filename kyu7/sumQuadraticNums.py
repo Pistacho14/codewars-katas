@@ -1,7 +1,6 @@
 import math
 
 def roots(a,b,c):
-    
     try:
         discriminant = math.sqrt(b**2-4*a*c)
         positive = (-b + math.sqrt(discriminant)) / (2*a)
