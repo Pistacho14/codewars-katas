@@ -3,5 +3,4 @@ def alphabet_position(text):
     for character in text:
         if character.isalpha():
             code = code + ' ' + str(ord(character.lower()) - 96)
-            
     return code.rstrip().lstrip()
