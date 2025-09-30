@@ -4,7 +4,5 @@ def only_duplicates(st):
         if st.count(letra) >= 2:
             clean_st += letra
         else:
-            continue    
+            continue
     return clean_st
-
-only_duplicates('abccdefee')

@@ -11,7 +11,7 @@ def dir_reduc(arr):
             coordinate_x -=1
         elif direction == 'EAST':
             coordinate_y -= 1
-    
+            
     while coordinate_x or coordinate_y:
         if coordinate_y > 0:
             clean_directions.append('WEST')
